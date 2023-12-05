@@ -4,6 +4,11 @@
     box-sizing: border-box;
     }
 
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
     body {
         font-family: Arial, Helvetica, sans-serif;
     }
@@ -14,8 +19,6 @@
     margin: 0 auto;
     padding: 0 15px;
     border: 2px solid red;
-
-
 }
 
 h1 {
@@ -28,3 +31,22 @@ h1 {
     padding: 0 15px;
     border: 2px solid green;
 }
+
+img {
+    height: 100px;
+}
+
+.col-1-3 {
+    width: calc(100% / 3);
+    /* height: 100px; */
+    border: 1px solid blue;
+    float: left;
+    background-color: gray;
+    color: white;
+}
+
+/* .clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+} */
